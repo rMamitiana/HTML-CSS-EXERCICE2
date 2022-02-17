@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, Arial, sans-serif;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 1em 3.5em;
+  border-radius: 25px;
+  border-color: transparent;
+}
+
+.bg_sky_blue {
+  background-color: #3d9f96;
+}
+
+.bg_navy_blue {
+  background-color: #23202e;
+}
+
+.text_white {
+  color: #ffffff;
+}
+
+.text_sky_blue {
+  color: #3d9f96;
+}
+
+.img_center {
+  display: block;
+  margin: 0 auto;
+}
+
+/******************************************
+*******************************************
+*			In desktop
+*******************************************
+*******************************************/
+
+/**
+*           First section
+*****************************************/
+#first_section > .container > img {
+  margin-top: 4em;
+}
+
+#first_section > .container > h1 {
+  font-size: xx-large;
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
+
+#first_section > .container > h1 > span {
+  font-weight: 400;
+}
+
+#first_section > .container > h2 {
+  font-size: medium;
+}
+
+#first_section > .container > p {
+  max-width: 500px;
+  margin: 2em auto;
+}
+
+/**
+*           second section (social network)
+******************************************************/
+#social_media {
+  background-color: #f9f9f9;
+  padding: 2em 0;
+}
+
+#social_media .list {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  gap: 5%;
+  list-style-type: none;
+}
+
+#social_media .item > a > img {
+  width: 100%;
+  height: auto;
+}
+
+/******************************************
+*******************************************
+*			In mobile
+*******************************************
+*******************************************/
+
+/**
+*           First section
+*****************************************/
+@media only screen and (max-width: 600px) {
+  .img {
+    width: 100%;
+    height: 100%;
+  }
+}
