@@ -8,39 +8,41 @@
     <title>Sayna</title>
 </head>
 <body>
-    <nav id="nav_bar" class="bg_navy_blue">
-        <ul class="list container">
-            <li class="item item_1 mb_hidden">
-                <a href="#" class="text_white">Home</a>
-            </li>
-            <li class="item item_2 mb_hidden">
-                <a href="#" class="text_white">Features</a>
-            </li>
-            <li class="item item_3">
-                <a href="#">
-                    <img src="/assets/img/SAYNA_Horizontal_-_Blanc.png" alt="sayna logo blanc" class="fit_content mb_img_center">
-                </a>
-            </li>
-            <li class="item item_4 mb_hidden">
-                <a href="#" class="text_sky_blue underline">Get it now</a>
-            </li>
-        </ul>
-    </nav>
-    <section id="first_section" class="bg_navy_blue">
-        <div class="container">
-            <h1 class="text_center text_white"><span>Promote your</span> new App!</h1>
-            <h2 class="text_center text_sky_blue">NEW SOFTWARE IN THE APP STORE</h2>
-            <p class="text_center text_white">
-                Vivamus sagittis lacus vel augue laoreet rutrum 
-                faucibus dolor auctor. Vestibulum
-                id ligula porta felis euismod semper.
-            </p>
-            <div class="text_center">
-                <a href="#" class="btn bg_sky_blue text_white">Buy Now</a>
+    <header>
+        <nav id="nav_bar">
+            <ul class="list container">
+                <li class="item item_1 mb_hidden">
+                    <a href="#" class="text_white">Home</a>
+                </li>
+                <li class="item item_2 mb_hidden">
+                    <a href="#" class="text_white">Features</a>
+                </li>
+                <li class="item item_3">
+                    <a href="#">
+                        <img src="/assets/img/SAYNA_Horizontal_-_Blanc.png" alt="sayna logo blanc" class="mb_img_center w_100">
+                    </a>
+                </li>
+                <li class="item item_4 mb_hidden">
+                    <a href="#" class="text_sky_blue underline">Get it now</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="first_section">
+            <div class="container">
+                <h1 class="text_center text_white"><span>Promote your</span> new App!</h1>
+                <h2 class="text_center text_sky_blue">NEW SOFTWARE IN THE APP STORE</h2>
+                <p class="text_center text_white">
+                    Vivamus sagittis lacus vel augue laoreet rutrum 
+                    faucibus dolor auctor. Vestibulum
+                    id ligula porta felis euismod semper.
+                </p>
+                <div class="text_center">
+                    <a href="#" class="btn bg_sky_blue text_white">Buy Now</a>
+                </div>
+                <img src="/assets/img/image_600px_1.png" alt="image_600px_1" class="img img_center">
             </div>
-            <img src="/assets/img/image_600px_1.png" alt="image_600px_1" class="img img_center">
-        </div>
-    </section>
+        </section>
+    </header>
     <section id="social_media" class="bg_grey">
         <div class="container">
             <ul class="list">
@@ -89,15 +91,17 @@
         </div>
     </section>
     <section id="new_app">
-        <div class="container">
-            <div id="product_phrase">
+        <div id="product_sentence">
+            <div class="container">
                 <h2 class="text_center"><span>Check Our</span> New App .</h2>
                 <p class="text_grey">
                     Aenean lacinia bibendum nulla sed consectetur. Donec sed
                     odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing
                 </p>
             </div>
-            <div id="product_container">
+        </div>
+        <div id="product_list">
+            <div class="container">
                 <ul class="list">
                     <li class="item">
                         <h3>
@@ -121,30 +125,28 @@
                         <p class="text_grey mb_text_center">Aenean lacinia bibendum nulla sed consectetur.</p>
                     </li>
                 </ul>
-                <div class="main_product">
-                    <img src="/assets/img/iphone.png" alt="iphone" class="img_center">
-                </div>
+                <img src="/assets/img/iphone.png" alt="iphone" class="mb_img_center main_product">
                 <ul class="list">
                     <li class="item">
-                        <h3>
+                        <h3 class="row_reverse mb_row">
                             <img src="/assets/img/icon_28px_4.png" alt="android icon">
                             <span>Skills</span>
                         </h3>
-                        <p class="text_grey mb_text_center">Aenean lacinia bibendum nulla sed consectetur.</p>
+                        <p class="text_right text_grey mb_text_center">Aenean lacinia bibendum nulla sed consectetur.</p>
                     </li>
                     <li class="item">
-                        <h3>
+                        <h3 class="row_reverse mb_row">
                             <img src="/assets/img/icon_28px_5.png" alt="arrow icon">
                             <span>Responsive</span>
                         </h3>
-                        <p class="text_grey mb_text_center">Aenean lacinia bibendum nulla sed consectetur.</p>
+                        <p class="text_right text_grey mb_text_center">Aenean lacinia bibendum nulla sed consectetur.</p>
                     </li>
                     <li class="item">
-                        <h3>
+                        <h3 class="row_reverse mb_row">
                             <img src="/assets/img/icon_28px_6.png" alt="cap icon">
                             <span>Tested</span>
                         </h3>
-                        <p class="text_grey mb_text_center">Aenean lacinia bibendum nulla sed consectetur.</p>
+                        <p class="text_right text_grey mb_text_center">Aenean lacinia bibendum nulla sed consectetur.</p>
                     </li>
                 </ul>
             </div>
@@ -183,7 +185,7 @@
     <section id="fonctionality">
         <div class="container">
             <div class="item item_1">
-                <img src="/assets/img/Composant_1_2.png" alt="desktop device">
+                <img src="/assets/img/Composant_1_2.png" alt="desktop device" class="w_100 md_w_auto">
                 <div class="context">
                     <h3>Litmus Tested .</h3>
                     <p class="text_grey">
@@ -193,7 +195,7 @@
                 </div>
             </div>
             <div class="item item_2">
-                <img src="/assets/img/image_300px_2.png" alt="mobile device">
+                <img src="/assets/img/image_300px_2.png" alt="mobile device" class="w_100 md_w_auto">
                 <div class="context">
                     <h3>100% Responsive .</h3>
                     <p class="text_grey">
@@ -209,7 +211,7 @@
             <div class="container">
                 <div class="item item_1 description">
                     <h3 class="title mb_text_center">
-                        <img src="/assets/img/SAYNA_Horizontal_-_Noir.png" alt="Shayna logo noir" class="mb_img_center fit_content">
+                        <img src="/assets/img/SAYNA_Horizontal_-_Noir.png" alt="Shayna logo noir" class="mb_img_center w_100">
                     </h3>
                     <p class="text_grey mb_text_center">
                         Donec sed odio dui. Donec id elit non mi porta gravida 
@@ -238,7 +240,7 @@
                 </div>
             </div>
         </section>
-        <section id="copyright">
+        <div id="copyright">
             <div class="container">
                 <p class="text_grey mb_text_center">
                     &copy; Copyright Sayna 2016 - All Right Reverse
@@ -266,7 +268,7 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </div>
     </footer>
 </body>
 </html>
