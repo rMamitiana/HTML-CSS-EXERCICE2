@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  line-height: 1.75em;
   font-family: Open Sans, Arial, sans-serif;
 }
 
@@ -245,6 +246,11 @@ a {
 #testimony .avatar {
   max-width: 400px;
   margin: 0 auto;
+}
+
+#testimony .avatar > h3 {
+  font-weight: 500;
+  font-size: inherit;
 }
 
 #testimony .avatar_biography {
