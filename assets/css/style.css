@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Raleway, Arial, sans-serif;
+  font-family: Open Sans, Arial, sans-serif;
 }
 
 header {
@@ -18,6 +18,10 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.f_raleway {
+  font-family: Raleway, Arial, sans-serif;
 }
 
 .w_100 {
@@ -42,7 +46,8 @@ a {
 }
 
 .btn {
-  padding: 1em 3.5em;
+  display: inline-block;
+  padding: .75em 3em;
   border-radius: 25px;
   border-color: transparent;
 }
@@ -126,13 +131,14 @@ a {
 }
 
 #first_section > .container > h1 {
-  font-size: xx-large;
-  font-weight: 900;
+  font-size: 2em;
+  font-weight: 100;
   margin-bottom: 0.5em;
 }
 
 #first_section > .container > h1 > span {
-  font-weight: 400;
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 900;
 }
 
 #first_section > .container > h2 {
@@ -180,6 +186,13 @@ a {
 
 #product_sentence .container > h2 {
   margin-top: 2.5em;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+#product_sentence .container > h2 > span {
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 500;
 }
 
 #product_list {
@@ -245,8 +258,17 @@ a {
   padding: 3em 0;
 }
 
-#sample .title {
+#sample .title,
+#fonctionality .context > h3 {
+  font-size: 1.5em;
+  font-weight: 100;
   margin-bottom: 1.5em;
+}
+
+#sample .title > span,
+#fonctionality .context > h3 > span {
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 600;
 }
 
 #sample .item > p {
